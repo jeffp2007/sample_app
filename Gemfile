@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.3'
+gem 'rails', '~> 3.2.3'
 gem 'bootstrap-sass', '~> 2.3.2.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'sprockets', '~> 2.1.2'
 
 # Bundle edge Rails instead:
@@ -10,6 +11,7 @@ gem 'sprockets', '~> 2.1.2'
 group :development, :test do
   gem 'sqlite3', '~> 1.3.5'
   gem 'rspec-rails' , '~> 2.9.0'
+  gem 'annotate', '~> 2.4.1.beta'
 end
 
 # Gems used only for assets and not required
