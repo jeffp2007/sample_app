@@ -12,6 +12,7 @@ gem 'sprockets', '~> 2.1.2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
+  gem 'faker', '~> 1.0.1'
   gem 'sqlite3', '~> 1.3.5'
   gem 'rspec-rails' , '~> 2.9.0'
   gem 'annotate', '~> 2.4.1.beta'
